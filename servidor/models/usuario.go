@@ -10,7 +10,7 @@ type User struct {
 	Videojuegos           bool    `json:"vid"`
 	Coleccionables        bool    `json:"colec"`
 	CalificacionComprador float32 `json:"califComp"`
-	CalificacionVendedor  float32 `json: "califVen"`
+	CalificacionVendedor  float32 `json:"califVen"`
 }
 
 type AuthUser struct {
