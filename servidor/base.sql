@@ -21,6 +21,7 @@ CREATE TABLE publicacion (
     categoria VARCHAR(50) NOT NULL,
     precio FLOAT NOT NULL,
     ubicacion VARCHAR(30),
+    estatus ENUM('ACTIVA', 'ELIMINADA', 'ARCHIVADA') DEFAULT 'ACTIVA',
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario)
 );
 
