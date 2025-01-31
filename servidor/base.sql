@@ -1,7 +1,7 @@
 CREATE TABLE usuarios (
 	id_usuario INT auto_increment NOT NULL PRIMARY KEY,
     username                 VARCHAR(20) NOT NULL, 
-    password                    VARCHAR(100) NOT NULL, 
+    password                    VARCHAR(80) NOT NULL, 
     fecha_nacimiento DATE NOT NULL,
     tecnologia BOOL NOT NULL,
     ropa BOOL NOT NULL,
